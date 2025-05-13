@@ -1,0 +1,150 @@
+.w-checkbox {
+  margin-bottom: 5px;
+  padding-left: 20px;
+  display: block;
+}
+
+.w-checkbox:before {
+  content: " ";
+  grid-area: 1 / 1 / 2 / 2;
+  display: table;
+}
+
+.w-checkbox:after {
+  content: " ";
+  clear: both;
+  grid-area: 1 / 1 / 2 / 2;
+  display: table;
+}
+
+.w-checkbox-input {
+  float: left;
+  margin: 4px 0 0 -20px;
+  line-height: normal;
+}
+
+.w-checkbox-input--inputType-custom {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  width: 12px;
+  height: 12px;
+}
+
+.w-checkbox-input--inputType-custom.w--redirected-checked {
+  background-color: #3898ec;
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-color: #3898ec;
+}
+
+.w-checkbox-input--inputType-custom.w--redirected-focus {
+  box-shadow: 0 0 3px 1px #3898ec;
+}
+
+.form {
+  width: 310px;
+  height: 375px;
+  margin-top: 129px;
+  margin-left: 5px;
+}
+
+.form-block {
+  width: 320px;
+  height: 380px;
+  margin-top: -94px;
+  margin-left: 600px;
+  padding-bottom: 0;
+}
+
+.text-field, .text-field-2 {
+  height: 28px;
+}
+
+.submit-button {
+  background-color: #0073d1;
+  width: 310px;
+  margin-top: 20px;
+}
+
+.image {
+  width: 113px;
+  margin-top: 10px;
+  margin-left: 700px;
+}
+
+.field-label {
+  color: #666;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.field-label-2 {
+  color: #666;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.text-block {
+  color: #333;
+  text-align: center;
+  margin-top: 150px;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.checkbox-label {
+  margin-top: 1px;
+}
+
+.checkbox-field {
+  color: #666;
+  margin-top: 10px;
+}
+
+.image-2 {
+  margin-top: 10px;
+}
+
+.image-3 {
+  margin-top: 200px;
+}
+
+.body {
+  background-color: #f9f9f9;
+}
+
+@media screen and (max-width: 991px) {
+  .form-block {
+    margin-left: 400px;
+  }
+
+  .image {
+    margin-left: 500px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .form-block {
+    margin-left: 200px;
+  }
+
+  .image {
+    margin-left: 300px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .form-block {
+    margin-left: 30px;
+  }
+
+  .image {
+    margin-left: 130px;
+  }
+
+  .image-3 {
+    margin-top: 60px;
+  }
+}
